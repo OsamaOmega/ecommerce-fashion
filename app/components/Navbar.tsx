@@ -8,12 +8,12 @@ function Navbar() {
         <Image src="/logo.png" alt="logo" width={45} height={45} />
         <p className="font-medium text-gray-600 tracking-wider">Omega</p>
       </Link>
-      <div className="flex items-center gap-4 cursor-pointer text-gray-600">
-        <div className="flex items-center gap-2 ring-1 ring-gray-300 rounded-sm shadow-md ">
+      <div className="flex items-center gap-4 cursor-pointer text-gray-600 mr-1">
+        <div className="hidden sm:flex items-center gap-2 ring-1 ring-gray-300 rounded-sm shadow-md ">
           <Search className="h-4 w-4 text-gray-300 " />
           <input
             id="search"
-            placeholder="Search.."
+            placeholder="Search..."
             className="outline-none text-sm"
           />
         </div>
